@@ -1,0 +1,44 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.owl-carousel {
+  padding: 10%;
+  overflow: hidden;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url(https://picsum.photos/1200);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-sarif;
+  font-size: 25px;
+}
+
+.slider {
+  background: rgba(130, 46, 140, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+}
+h2 {
+  padding-bottom: 2%;
+}
+h3 {
+  padding-bottom: 10%;
+}
+.content {
+  align-items: center;
+  padding: 2%;
+}
+.pics {
+  border-radius: 20px;
+  max-width: 300px;
+  height: 400px;
+}
